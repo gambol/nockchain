@@ -86,7 +86,7 @@ build-hoon: ensure-dirs update-hoonc $(HOON_TARGETS)
 .PHONY: run-nockchain
 run-nockchain:  # Run a nockchain node in follower mode with a mining pubkey
 	$(call show_env_vars)
-	mkdir -p miner-node && cd miner-node && rm -f nockchain.sock && RUST_BACKTRACE=1 RUST_LOG_STYLE=never NO_COLOR=1 cargo run --release --bin nockchain -- --npc-socket nockchain.sock --mining-pubkey $(MINING_PUBKEY) --mine
+	mkdir -p miner-node && cd miner-node && rm -f nockchain.sock && RUST_BACKTRACE=1 RUST_LOG_COLOR=false RUST_LOG_STYLE=never NO_COLOR=1 cargo run --release --bin nockchain -- --npc-socket nockchain.sock --mining-pubkey $(MINING_PUBKEY) --mine |  sed 's/\x1b\[[0-9;]*m//g'
 
 HOON_SRCS := $(find hoon -type file -name '*.hoon')
 

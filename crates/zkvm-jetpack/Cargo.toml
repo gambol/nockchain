@@ -21,3 +21,8 @@ tracing.workspace = true
 
 [dev-dependencies]
 quickcheck.workspace = true
+criterion.workspace = true
+
+[[bench]]
+name = "tip5_benchmark"
+harness = false

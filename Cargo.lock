@@ -6882,6 +6882,7 @@ dependencies = [
  "argon2",
  "arrayref",
  "bytes",
+ "criterion",
  "either",
  "hex-literal",
  "ibig",

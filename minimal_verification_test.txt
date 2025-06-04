@@ -1,0 +1,66 @@
+warning: /Volumes/WD/gbwork/nockchain/crates/nockvm/rust/ibig/Cargo.toml: `default-features` is ignored for num-traits, since `default-features` was not specified for `workspace.dependencies.num-traits`, this could become a hard error in the future
+warning: /Volumes/WD/gbwork/nockchain/crates/nockvm/rust/ibig/Cargo.toml: `default-features` is ignored for rand, since `default-features` was not specified for `workspace.dependencies.rand`, this could become a hard error in the future
+warning: /Volumes/WD/gbwork/nockchain/crates/nockvm/rust/ibig/Cargo.toml: `default-features` is ignored for serde, since `default-features` was not specified for `workspace.dependencies.serde`, this could become a hard error in the future
+   Compiling nockchain v0.1.0 (/Volumes/WD/gbwork/nockchain/crates/nockchain)
+    Finished `test` profile [optimized + debuginfo] target(s) in 38.90s
+     Running tests/prove_block_fast_test.rs (target/debug/deps/prove_block_fast_test-f479e7d38571cc36)
+
+running 2 tests
+🏃‍♂️ MINIMAL prove-block-inner test
+==================================
+Absolute minimum parameters for quickest result
+
+🚀 Starting minimal test...
+   Length: 2
+   This should complete in under 5 minutes
+🔍 MINIMAL prove-block test WITH VERIFICATION
+==============================================
+This test saves proof data and compares with previous runs
+
+🚀 Running test with proof verification...
+🚀 Fast prove-block test with length: 2
+📊 Nonce: [1, 1, 1, 1, 1]
+🚀 Fast prove-block test with length: 2
+📊 Nonce: [1, 1, 1, 1, 1]
+test test_minimal_prove_block has been running for over 60 seconds
+test test_minimal_prove_block_with_verification has been running for over 60 seconds
+✅ Completed in 133.47s
+🔍 Proof hash: 4aa1ffaf692b09c7
+
+🎉 MINIMAL TEST COMPLETED!
+⏱️  Time: 133.47s
+📊 Performance:
+   - Seconds: 133.5
+   - Minutes: 2.2
+✅ GOOD: Under 5 minutes
+💾 Saved benchmark result to: benchmark_results/minimal_test_baseline.json
+✅ Completed in 133.48s
+🔍 Proof hash: bbe38aa56dbda5aa
+🔍 Comparing with previous result:
+   Previous time: 133.47s
+   Current time:  133.47s
+⚖️  Same performance
+✅ PROOF MATCH: Results are identical!
+
+💡 Next steps:
+   - If this was fast enough, try larger lengths
+   - Use this as baseline for optimization comparisons
+   - Scale up length gradually to find sweet spot
+   - Proof saved for verification after optimizations
+✅ Test completed in 133.48s
+💾 Saved benchmark result to: benchmark_results/verification_test_20250604_081913.json
+test test_minimal_prove_block ... ok
+💾 Saved benchmark result to: benchmark_results/verification_test_latest.json
+🔍 Comparing with previous result:
+   Previous time: 133.48s
+   Current time:  133.48s
+⚖️  Same performance
+✅ PROOF MATCH: Results are identical!
+
+📁 Results saved:
+   - Timestamped: benchmark_results/verification_test_20250604_081913.json
+   - Latest: benchmark_results/verification_test_latest.json
+test test_minimal_prove_block_with_verification ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 2 filtered out; finished in 133.48s
+

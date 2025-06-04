@@ -226,7 +226,7 @@ pub fn permute(sponge: &mut [u64; 16]) {
     }
 }
 
-fn sbox_layer(state: &[u64; STATE_SIZE]) -> [u64; STATE_SIZE] {
+pub fn sbox_layer(state: &[u64; STATE_SIZE]) -> [u64; STATE_SIZE] {
     let mut res: [u64; STATE_SIZE] = [0; STATE_SIZE];
 
     for i in 0..NUM_SPLIT_AND_LOOKUP {
@@ -243,7 +243,7 @@ fn sbox_layer(state: &[u64; STATE_SIZE]) -> [u64; STATE_SIZE] {
     res
 }
 
-fn linear_layer(state: &[u64; 16]) -> [u64; 16] {
+pub fn linear_layer(state: &[u64; 16]) -> [u64; 16] {
     let mut result = [0u64; 16];
 
     for i in 0..16 {

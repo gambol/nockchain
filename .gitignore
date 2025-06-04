@@ -8,3 +8,5 @@ test-follower
 target
 assets/*.jam
 !crates/nockapp/test-jams
+
+origin_nockchain/

@@ -1,0 +1,34 @@
+warning: /Volumes/WD/gbwork/nockchain/crates/nockvm/rust/ibig/Cargo.toml: `default-features` is ignored for num-traits, since `default-features` was not specified for `workspace.dependencies.num-traits`, this could become a hard error in the future
+warning: /Volumes/WD/gbwork/nockchain/crates/nockvm/rust/ibig/Cargo.toml: `default-features` is ignored for rand, since `default-features` was not specified for `workspace.dependencies.rand`, this could become a hard error in the future
+warning: /Volumes/WD/gbwork/nockchain/crates/nockvm/rust/ibig/Cargo.toml: `default-features` is ignored for serde, since `default-features` was not specified for `workspace.dependencies.serde`, this could become a hard error in the future
+    Finished `test` profile [optimized + debuginfo] target(s) in 1.19s
+     Running tests/prove_block_fast_test.rs (target/debug/deps/prove_block_fast_test-8402fabb4873b272)
+
+running 1 test
+🏃‍♂️ MINIMAL prove-block-inner test
+==================================
+Absolute minimum parameters for quickest result
+
+🚀 Starting minimal test...
+   Length: 2
+   This should complete in under 5 minutes
+🚀 Fast prove-block test with length: 2
+📊 Nonce: [1, 1, 1, 1, 1]
+test test_minimal_prove_block has been running for over 60 seconds
+✅ Completed in 131.07s
+
+🎉 MINIMAL TEST COMPLETED!
+⏱️  Time: 131.07s
+📊 Performance:
+   - Seconds: 131.1
+   - Minutes: 2.2
+✅ GOOD: Under 5 minutes
+
+💡 Next steps:
+   - If this was fast enough, try larger lengths
+   - Use this as baseline for optimization comparisons
+   - Scale up length gradually to find sweet spot
+test test_minimal_prove_block ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 2 filtered out; finished in 131.07s
+

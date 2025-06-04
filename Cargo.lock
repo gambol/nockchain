@@ -833,6 +833,7 @@ dependencies = [
  "iana-time-zone",
  "js-sys",
  "num-traits",
+ "serde",
  "wasm-bindgen",
  "windows-link",
 ]
@@ -3602,9 +3603,12 @@ dependencies = [
 name = "nockchain"
 version = "0.1.0"
 dependencies = [
+ "bincode",
  "bitcoincore-rpc",
  "bs58",
+ "chrono",
  "clap",
+ "criterion",
  "equix",
  "futures",
  "hoonc",
@@ -3615,6 +3619,8 @@ dependencies = [
  "nockchain-libp2p-io",
  "nockvm",
  "nockvm_macros",
+ "serde",
+ "serde_json",
  "tempfile",
  "termcolor",
  "tokio",

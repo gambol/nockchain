@@ -1,0 +1,72 @@
+{
+  "input": {
+    "length": 2,
+    "block_commitment": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "nonce": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ]
+  },
+  "duration_secs": 1.5,
+  "stark_proof": {
+    "proof": {
+      "version": 0,
+      "objects": [
+        {
+          "type": "m-root",
+          "digest": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "type": "heights",
+          "data": [
+            8,
+            16,
+            32
+          ]
+        }
+      ],
+      "hashes": [
+        [
+          10,
+          20,
+          30,
+          40,
+          50
+        ]
+      ],
+      "read_index": 0
+    },
+    "proof_hash": "1234567890abcdef",
+    "block_commitment": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "nonce": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ]
+  },
+  "timestamp": "2024-01-01T12:00:00Z",
+  "test_name": "test_structure"
+}

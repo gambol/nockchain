@@ -1,0 +1,26 @@
+{
+  "is_valid": true,
+  "duration_secs": 0.00050725,
+  "input_file": "benchmark_results/minimal_extraction_test_20250608_055801.json",
+  "timestamp": "2025-06-08T07:36:15.305074+00:00",
+  "error_message": null,
+  "details": {
+    "proof_objects_count": 53,
+    "original_proof_hash": "45205e5d350e0d145fdb4f7f9f2d0710bd178e87e235064f36e8639d872be569f2e13a894677a776",
+    "block_commitment": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "nonce": [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "verification_method": "hoon_kernel_verification"
+  }
+}

@@ -1,0 +1,478 @@
+{
+  "input": {
+    "length": 2,
+    "block_commitment": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "nonce": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "duration_secs": 135.780764417,
+  "stark_proof": {
+    "proof": {
+      "version": 0,
+      "objects": [
+        {
+          "type": "heights",
+          "data": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "heights",
+          "data": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "m-root",
+          "digest": [
+            1898840182088173986,
+            828624455192106472,
+            17788350482290246136,
+            323561833257586296,
+            18135966861967548485
+          ]
+        },
+        {
+          "type": "m-root",
+          "digest": [
+            10940040215348289524,
+            11803997359893521821,
+            13967816578537108541,
+            1109019672305398566,
+            10542211624191937691
+          ]
+        },
+        {
+          "type": "heights",
+          "data": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "heights",
+          "data": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "heights",
+          "data": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "m-root",
+          "digest": [
+            8457104968057890328,
+            10743866265213132886,
+            17851436344529576234,
+            1861902195990363269,
+            8824592051660206011
+          ]
+        },
+        {
+          "type": "heights",
+          "data": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "heights",
+          "data": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "heights",
+          "data": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "m-root",
+          "digest": [
+            13593024513536867664,
+            13698000293594478888,
+            10680008438378868763,
+            14449735059130596941,
+            6393681277156524977
+          ]
+        },
+        {
+          "type": "heights",
+          "data": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "heights",
+          "data": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "heights",
+          "data": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "heights",
+          "data": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "heights",
+          "data": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "heights",
+          "data": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "heights",
+          "data": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "heights",
+          "data": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "heights",
+          "data": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "heights",
+          "data": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "heights",
+          "data": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "heights",
+          "data": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "heights",
+          "data": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "heights",
+          "data": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "heights",
+          "data": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "heights",
+          "data": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "heights",
+          "data": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "heights",
+          "data": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "heights",
+          "data": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "heights",
+          "data": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "heights",
+          "data": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "heights",
+          "data": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "heights",
+          "data": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "heights",
+          "data": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "heights",
+          "data": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "heights",
+          "data": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "heights",
+          "data": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "heights",
+          "data": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "heights",
+          "data": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "heights",
+          "data": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "heights",
+          "data": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "heights",
+          "data": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "heights",
+          "data": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "heights",
+          "data": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "heights",
+          "data": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "heights",
+          "data": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "heights",
+          "data": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "heights",
+          "data": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "heights",
+          "data": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "heights",
+          "data": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "heights",
+          "data": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "hashes": [],
+      "read_index": 0
+    },
+    "proof_hash": "45205e5d350e0d145fdb4f7f9f2d0710bd178e87e235064f36e8639d872be569f2e13a894677a776",
+    "block_commitment": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "nonce": [
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "timestamp": "2025-06-08T08:44:46.316505+00:00",
+  "test_name": "minimal_extraction_test_20250608_084230"
+}
